@@ -23,6 +23,14 @@
       "description": "Dapatkan String Session di bot @IndomieStringBot, jika masih tidak paham gimana cara ngambil nya, mending gausa bikin bot anjing.",
       "required": true
     },
+      "REDIS_URI": {
+       "description": "Redis endpoint URL, from redislabs.com",
+       "value": ""
+    },
+      "REDIS_PASSWORD": {
+       "description": "Redis endpoint password, from redislabs.com",
+       "value": ""
+    },
     "HEROKU_APP_NAME": {
       "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": true
