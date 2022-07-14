@@ -1,0 +1,12 @@
+version: "1.0"
+services:
+  worker:
+    build: .
+    environment:
+      API_KEY: $API_KEY
+      API_HASH: $API_HASH
+      SUDO_USERS: $SUDO_USERS
+      BOTLOG_CHATID: $BOTLOG_CHATID
+      ALIVE_LOGO: $ALIVE_LOGO
+      DB_URL: $DATABASE_URL
+      STRING_SESSION: $STRING_SESSION
